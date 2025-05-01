@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.heroButton {
+  /* background-color:blue;
+  color:white; */
+  width:15%;
+  margin:0 auto;
+
+}
