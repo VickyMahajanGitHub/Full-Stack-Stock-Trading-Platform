@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="120" viewBox="0 0 450 120">
+  <rect x="20" y="60" width="10" height="30" fill="#0052CC"/>
+  <rect x="35" y="45" width="10" height="45" fill="#1A73E8"/>
+  <rect x="50" y="30" width="10" height="60" fill="#2B2D42"/>
+  <text x="75" y="75" font-size="38" font-family="Arial Black, Gadget, sans-serif" font-weight="bold">
+    <tspan fill="#0052CC">Trade</tspan>
+    <tspan fill="#000000">Stack</tspan>
+  </text>
+</svg>

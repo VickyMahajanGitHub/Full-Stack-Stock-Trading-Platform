@@ -6,11 +6,7 @@ import RightSection from './RightSection';
 function ProductPage() {
     return ( 
         <>
-        <Navbar />
-        <Hero   />
-        <LeftSection    />
-        <RightSection   />
-        <Footer />  
+         
         </>
      );
 }

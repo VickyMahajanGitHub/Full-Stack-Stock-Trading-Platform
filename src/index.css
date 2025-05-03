@@ -19,3 +19,82 @@ code {
   margin:0 auto;
 
 }
+
+.nav-link{
+  margin-left: 40px;;
+}
+
+.footer_navhead{
+  margin-bottom: 10px;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.a_link{
+  
+    color: inherit;
+    text-decoration: none;   
+}
+
+.footer-graveyard{
+  text-align:center;
+  /* display:block; */
+  /* unicode-bidi: isolate; */
+  color: #424242;
+  font-family: "Inter", serif;
+  /* font-size: 16px; */
+  width: 100%;
+  line-height: 1.7;
+  font-weight: 400;
+}
+
+
+
+.footer-graveyard ul li {
+  display: inline;
+  font-size: .9rem;
+  margin-right: 20px;
+}
+
+.social-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 16px; /* 10px vertical, 16px horizontal */
+  /* justify-content: center; */
+  margin-top: 10px;
+}
+
+
+.social-icons a {
+  margin: 0 8px;
+  text-decoration: none;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.social-icons i {
+  font-size: 14px;        /* Decrease icon font size */
+  width: 28px;            /* Smaller circle */
+  height: 28px;
+  line-height: 28px;      /* Vertically center the icon */
+  text-align: center;
+  border-radius: 50%;
+  color: white;
+  background-color: #777; /* fallback */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Brand colors */
+.social-icons .fa-x-twitter { background-color: #000000; }
+.social-icons .fa-facebook-f { background-color: #3b5998; }
+.social-icons .fa-instagram { background-color: #e4405f; }
+.social-icons .fa-linkedin-in { background-color: #0077b5; }
+.social-icons .fa-youtube { background-color: #ff0000; }
+.social-icons .fa-whatsapp { background-color: #25d366; }
+.social-icons .fa-telegram { background-color: #0088cc; }
+
+/* Hover effects */
+.social-icons a:hover i {
+  transform: scale(1.1);
+  opacity: 0.9;
+}
