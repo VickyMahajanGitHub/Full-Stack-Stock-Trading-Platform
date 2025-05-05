@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 function Navbar() {
   return (
     // <div className="container">
@@ -7,13 +8,13 @@ function Navbar() {
       style={{ backgroundColor: "#FFF" }}
     >
       <div class="container ">
-        <a class="navbar-brand" href="#">
+        <Link class="navbar-brand" to="/">
           <img
             src="media/images/TradeStack_logo.svg"
             alt="Logo"
             style={{ width: "50%" }}
           />
-        </a>
+        </Link>
         <button
           class="navbar-toggler"
           type="button"
@@ -29,37 +30,37 @@ function Navbar() {
           <form class="d-flex" role="search">
             <ul class="navbar-nav  mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
+                <Link class="nav-link active" aria-current="page" to="/signup">
                   Signup
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">
+                <Link class="nav-link active" to="/about">
                   About
-                </a>
+                </Link>
               </li>
              
               <li class="nav-item">
-                <a class="nav-link active" href="#">
+                <Link class="nav-link active" to="/product">
                   Product
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">
+                <Link class="nav-link active" to="/pricing">
                   Pricing
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">
+                <Link class="nav-link active" to="/support">
                   Support
-                </a>
+                </Link>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link active" href="#">
+                <Link class="nav-link active" to="/login">
                   
               <i class="fa fa-bars" aria-hidden="true"></i>
-                </a>
+                </Link>
               </li>
 
               
