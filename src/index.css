@@ -36,6 +36,11 @@ code {
     text-decoration: none;   
 }
 
+.a_link_about{
+  color:blue;
+  text-decoration: none;
+}
+
 .footer-graveyard{
   text-align:center;
   /* display:block; */
